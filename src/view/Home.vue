@@ -1,6 +1,8 @@
 <template>
     <div class="home-wrap">
-        <div class="title">VUE组件库</div>
+        <div class="box-1200">
+            <div class="title">VUE组件库</div>
+        </div>
     </div>
 </template>
 
@@ -36,10 +38,12 @@ export default {
 
 <style lang="less">
     .home-wrap{
-        text-align: left;
         .title{
             font-size: 16px;
             font-weight: bold;
+            &:focus{
+                border: 1px solid #ccc;
+            }
         }
     }
 </style>
