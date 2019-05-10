@@ -7,6 +7,9 @@
 # npm run dev
 启动项目
 
+# npm install --save-dev less-loader less
+安装less
+
 启动控制台报错
 错误内容：[Vue warn]: You are using the runtime-only build of Vue where the template compiler is not available. Either pre-compile the templates into render functions, or use the compiler-included build.
 (found in <Root>)
