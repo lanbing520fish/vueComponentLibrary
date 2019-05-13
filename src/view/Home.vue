@@ -31,14 +31,5 @@ export default {
 </script>
 
 <style lang="less">
-    .home-wrap{
-        .title{
-            font-size: 16px;
-            font-weight: bold;
-            &:focus{
-                border: 1px solid #ccc;
-            }
-        }
-    }
+    @import "../assets/css/home.less";
 </style>
-
